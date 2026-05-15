@@ -1,1 +1,1 @@
-**This Repository contains solutions to the Hacker Rank "Solve Python" Problems**
+**This Repository contains solutions to the Hacker Rank's "Solve Python" Problems**
