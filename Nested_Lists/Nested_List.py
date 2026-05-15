@@ -5,11 +5,11 @@ if __name__ == '__main__':
         name = input()
         score = float(input())
         nested_arr.append([name,score])
-        lowest_scores=list(set())
+    lowest_scores=[]
         
     for item in nested_arr:
         lowest_scores.append(item[1])
-    lowest_scores.sort()
+    lowest_scores = sorted(set(lowest_scores)) 
     second_lowest=lowest_scores[1]
     names=[]
     for item in nested_arr:
@@ -17,7 +17,7 @@ if __name__ == '__main__':
             names.append(item[0])
     names.sort()
     for item in names:
-        print(f"{item}")
+        print(item)
     
             
         
