@@ -42,8 +42,8 @@ Print the result of `hash(t)`.
 
 ## Solution
 
-
+''' python
 if __name__ == '__main__':
     n = int(raw_input())
     integer_list = map(int, raw_input().split())
-    print(hash(tuple((integer_list))))
+    print(hash(tuple((integer_list))))'''
