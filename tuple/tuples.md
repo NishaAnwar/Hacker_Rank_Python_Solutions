@@ -1,6 +1,6 @@
-"""For the below problem use python2 because the built-in hash() function in Python 3 uses a random 
+For the below problem use python2 because the built-in hash() function in Python 3 uses a random 
 salt by default for security, meaning it produces a different value every time the program runs.HackerRank’s 
-expected outputs for this specific challenge were generated using Python 2's deterministic hashing. """
+expected outputs for this specific challenge were generated using Python 2's deterministic hashing. 
 
 # 013 - Tuples
 ## Problem
