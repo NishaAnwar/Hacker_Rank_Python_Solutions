@@ -1,25 +1,42 @@
-🔄 Swap Case Problem
-📌 Problem Statement
+#🔄Swap Case Problem
+
+#Problem Statement
 
 You are given a string and your task is to swap cases.
+
 In other words:
 
 Convert all lowercase letters to uppercase
+
 Convert all uppercase letters to lowercase
+
 📖 Example
+
 Input:
+
 Www.HackerRank.com
+
 Pythonist 2
+
 Output:
+
 wWW.hACKERrANK.COM
+
 pYTHONIST 2
+
 ⚙️ Function Description
+
 Function Name:
+
 swap_case
+
 Parameter:
+
 string s → the input string
+
 Returns:
 string → the modified string after swapping cases
+
 📥 Input Format
 
 A single line containing a string s.
@@ -31,8 +48,11 @@ A single line containing a string s.
 For each character in the string:
 
 If it is lowercase → convert it to uppercase
+
 If it is uppercase → convert it to lowercase
+
 If it is not a letter (like space or symbol) → still handled automatically
+
 🧾 Solution (Python Code)
 
 ```python
