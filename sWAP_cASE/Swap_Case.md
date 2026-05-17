@@ -1,6 +1,6 @@
-#🔄Swap Case Problem
+**Swap Case Problem**
 
-#Problem Statement
+**Problem Statement**
 
 You are given a string and your task is to swap cases.
 
@@ -24,24 +24,24 @@ wWW.hACKERrANK.COM
 
 pYTHONIST 2
 
-⚙️ Function Description
+**⚙️ Function Description**
 
-Function Name:
+**Function Name:**
 
 swap_case
 
-Parameter:
+**Parameter:**
 
 string s → the input string
 
-Returns:
+**Returns:**
 string → the modified string after swapping cases
 
-📥 Input Format
+**Input Format**
 
 A single line containing a string s.
 
-⚠️ Constraints
+**⚠️ Constraints**
 0 < len(s) ≤ 1000
 💡 Idea / Logic
 
